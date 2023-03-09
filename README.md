@@ -7,10 +7,10 @@ Just app that I made for fun. It plays the rickroll song in the background of yo
 
 ## Usage
 
-1. Install dependencies`npm install`
+1. Install package`npm install -g bg-rickroll`
 2. Run application
-   - Visible mode `npm start`
-   - Background mode `npm run start:background`
+   - Visible mode `npx bg-rickroll`
+   - Background mode(WIP) `npm run start:background`
 3. Enjoy
 
 ## Stop application
@@ -22,7 +22,7 @@ if you run the application in background mode, you can stop it by pm2 package or
 You can also pass command line arguments to the package:
 
 ```
-npm start -- --url=https://www.youtube.com/watch?v=dQw4w9WgXcQ --min=60000 --max=120000
+npx bg-rickroll --url=https://www.youtube.com/watch?v=dQw4w9WgXcQ --min=60 --max=120
 ```
 
 | Parameter | Description                      | Default                                                                            |
