@@ -1,6 +1,6 @@
 {
   "name": "bg-rickroll",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node app to randomly run rickroll in your browser",
   "main": "rickroll.js",
   "bin": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/wraithyy/node-bg-rickroll#readme",
   "dependencies": {
+    "minimist": "^1.2.8",
     "opn": "^6.0.0"
   }
 }
