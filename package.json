@@ -1,12 +1,13 @@
 {
   "name": "bg-rickroll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node app to randomly run rickroll in your browser",
   "main": "rickroll.js",
+  "bin": {
+    "bg-rickroll": "./src/rickroll.js"
+  },
   "scripts": {
-    "start": "node rickroll.js",
-    "start:background": "pm2 start rickroll.js --name rickroll",
-    "stop": "pm2 stop rickroll"
+    "start": "node ./src/rickroll.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,6 @@
   },
   "homepage": "https://github.com/wraithyy/node-bg-rickroll#readme",
   "dependencies": {
-    "opn": "^6.0.0",
-    "pm2": "^5.2.2"
+    "opn": "^6.0.0"
   }
 }

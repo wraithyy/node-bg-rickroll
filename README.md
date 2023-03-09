@@ -1,6 +1,7 @@
 # Node BackgroundRickroll
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://badge.fury.io/js/bg-rickroll.svg)](https://badge.fury.io/js/bg-rickroll)
 
 Just app that I made for fun. It plays the rickroll song in the background of your computer by default.
 
