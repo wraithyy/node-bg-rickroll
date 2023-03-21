@@ -18,4 +18,10 @@ function openImage() {
   }, randomTime * 1000);
 }
 
+console.log("Rickrolling in " + min + " to " + max + " seconds");
+
+setTimeout(() => {
+  console.clear();
+}, 1000);
+
 openImage();
