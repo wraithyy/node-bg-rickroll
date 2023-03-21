@@ -1,6 +1,6 @@
 {
   "name": "bg-rickroll",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Node app to randomly run rickroll in your browser",
   "main": "rickroll.js",
   "bin": {
